@@ -1,0 +1,23 @@
+{
+  "name": "atom-quick-menu",
+  "main": "./lib/atom-quick-menu-main",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A quick panel utility for Atom packages",
+  "activationEvents": [
+    "atom-quick-menu:example-code",
+    "atom-quick-menu:demo",
+    "atom-quick-menu:submenu-dialogs",
+    "atom-quick-menu:submenu-items",
+    "atom-quick-menu:submenu-commands",
+    "atom-quick-menu:select-item-2-on-commands-menu",
+    "atom-quick-menu:command-hello,-world!"
+  ],
+  "repository": "https://github.com/spywhere/atom-quick-menu",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
