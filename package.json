@@ -1,7 +1,7 @@
 {
   "name": "QuickMenu",
   "main": "./lib/atom-quick-menu-main",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "description": "A quick panel utility for Atom packages",
   "activationEvents": [
