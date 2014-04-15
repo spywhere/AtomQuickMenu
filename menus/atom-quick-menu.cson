@@ -1,15 +1,16 @@
-# See https://atom.io/docs/latest/creating-a-package#menus for more details
-'context-menu':
-  '.overlayer':
-      'Enable atom-quick-menu': 'atom-quick-menu:toggle'
-
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'atom-quick-menu'
+      'label': 'QuickMenu'
       'submenu': [
-        { 'label': 'Toggle', 'command': 'atom-quick-menu:toggle' }
+        { 'label': 'Example Code', 'command': 'atom-quick-menu:example-code' },
+        { 'label': 'Demo', 'command': 'atom-quick-menu:demo' },
+        { 'label': 'Submenu Dialogs', 'command': 'atom-quick-menu:submenu-dialogs' },
+        { 'label': 'Submenu Items', 'command': 'atom-quick-menu:submenu-items' },
+        { 'label': 'Submenu Commands', 'command': 'atom-quick-menu:submenu-commands' },
+        { 'label': 'Select Item 2 on Commands Menu', 'command': 'atom-quick-menu:select-item-2-on-commands-menu' },
+        { 'label': 'Command Hello, World', 'command': 'atom-quick-menu:command-hello,-world' }
       ]
     ]
   }

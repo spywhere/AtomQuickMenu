@@ -1,5 +1,5 @@
 {
-  "name": "atom-quick-menu",
+  "name": "QuickMenu",
   "main": "./lib/atom-quick-menu-main",
   "version": "0.0.0",
   "private": true,
@@ -13,7 +13,14 @@
     "atom-quick-menu:select-item-2-on-commands-menu",
     "atom-quick-menu:command-hello,-world!"
   ],
-  "repository": "https://github.com/spywhere/atom-quick-menu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spywhere/AtomQuickMenu"
+  },
+  "bugs": {
+    "url": "https://github.com/spywhere/AtomQuickMenu/issue"
+  },
+  "homepage": "https://github.com/spywhere/AtomQuickMenu",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
